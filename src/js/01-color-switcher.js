@@ -13,7 +13,7 @@ dataStart.addEventListener(`click`, () => {
     dataStop.removeAttribute(`disabled`);
     timerId = setTimeout(() => {
         const color = getRandomHexColor();
-        bodyEl.style.backgroundcolor = color;
+        bodyEl.style.backgroundColor = color;
     }, 1000);
     dataStart.setAttribute(`disabled`, true);
 });
